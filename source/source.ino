@@ -12,8 +12,8 @@
 TFT_eSPI tft = TFT_eSPI();
 
 // Biến WiFi
-const char* ssidList[] = { SECRET_SSID_1, SECRET_SSID_2 };
-const char* passwordList[] = { SECRET_PASS_1, SECRET_PASS_2 };
+const char* ssidList[] = { SECRET_SSID_1, SECRET_SSID_2 }; //SSID
+const char* passwordList[] = { SECRET_PASS_1, SECRET_PASS_2 }; //PASSWORD
 int netCount = sizeof(ssidList) / sizeof(ssidList[0]);
 int indexWiFi;
 String info = "HaoCoder ";
@@ -29,7 +29,7 @@ const char* daysOfWeek[] = { "Sunday   ", "Monday   ", "Tuesday  ", "Wednesday",
 int countryIdx = 0;
 
 // Biến thời tiết
-const String apiKey = SECRET_API_KEY; 
+const String apiKey = SECRET_API_KEY; //API KEY
 String weatherTemp = "--°C";
 String weatherDesc = "...";
 uint16_t tempColor = TFT_WHITE;

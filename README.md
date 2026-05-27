@@ -44,7 +44,7 @@ The software architecture leverages optimized open-source embedded libraries to 
 * **Top Left**: Custom branding acknowledging ownership (`HaoCoder`) alongside university identity (`TDTU` rendered in official institutional colors).
 * **Top Right**: Live network configuration feedback along with contextual weather metrics.
 * **Center Screen**: Epoch-synced standard clock with real-time scaling adjustments.
-* **Bottom Center**: Integrated dynamic custom graphics assets (such as an animated retro character or pulsing ASCII art) reacting directly to system tick cycles. *Optional*
+* **Bottom Center**: Integrated dynamic custom graphics assets (such as an animated retro character or pulsing ASCII art) reacting directly to system tick cycles. *(Optional)*
 
 ## 🖼️ Demo & User Interface
 <div align="center">
