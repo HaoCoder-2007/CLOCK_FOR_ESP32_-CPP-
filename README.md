@@ -47,5 +47,5 @@ The software architecture leverages optimized open-source embedded libraries to 
 * **Bottom Center**: Integrated dynamic custom graphics assets (such as an animated retro character or pulsing ASCII art) reacting directly to system tick cycles. *Optional*
 
 ## 🖼️ Demo & User Interface
-![Picture](REAME_SOURCE/pic.png)
-<video src="REAME_SOURCE/vid.mp4" width="640" autoplay loop muted playsinline></video>
+![Picture](README_SOURCE/pic.png)
+<video src="README_SOURCE/vid.mp4" width="640" autoplay loop muted playsinline></video>
