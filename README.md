@@ -47,5 +47,10 @@ The software architecture leverages optimized open-source embedded libraries to 
 * **Bottom Center**: Integrated dynamic custom graphics assets (such as an animated retro character or pulsing ASCII art) reacting directly to system tick cycles. *Optional*
 
 ## 🖼️ Demo & User Interface
-![Picture](./README_SOURCE/pic.jpg)
-![Video](./README_SOURCE/vid.gif)
+<div align="center">
+  <img src="./README_SOURCE/pic.jpg" alt="CYD Clock Station Snapshot" width="500">
+  
+  <br><br>
+  
+  <img src="./README_SOURCE/vid.gif" alt="Timezone and Color Switching Demo" width="500">
+</div>
