@@ -48,6 +48,4 @@ The software architecture leverages optimized open-source embedded libraries to 
 
 ## 🖼️ Demo & User Interface
 ![Picture](./README_SOURCE/pic.jpg)
-<video width="640" height="auto" autoplay loop muted playsinline>
-  <source src="./README_SOURCE/vid.mp4" type="video/mp4">
-</video>
+![Video](./README_SOURCE/vid.gif)
