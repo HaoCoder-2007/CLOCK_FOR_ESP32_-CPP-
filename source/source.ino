@@ -3,6 +3,7 @@
 #include <HTTPClient.h>
 #include <ArduinoJson.h>
 #include "time.h"
+#include "info.h"
 
 // Cấu hình chân
 #define LCD_CS 15
@@ -11,8 +12,8 @@
 TFT_eSPI tft = TFT_eSPI();
 
 // Biến WiFi
-const char* ssidList[] = { "LAB", "H&H<3" };
-const char* passwordList[] = { "trangia160@", "TranGiaHao1412" };
+const char* ssidList[] = { SECRET_SSID_1, SECRET_SSID_2 };
+const char* passwordList[] = { SECRET_PASS_1, SECRET_PASS_2 };
 int netCount = sizeof(ssidList) / sizeof(ssidList[0]);
 int indexWiFi;
 String info = "HaoCoder ";
@@ -28,7 +29,7 @@ const char* daysOfWeek[] = { "Sunday   ", "Monday   ", "Tuesday  ", "Wednesday",
 int countryIdx = 0;
 
 // Biến thời tiết
-const String apiKey = "5727a5b43000d171e14dbe2988498460"; 
+const String apiKey = SECRET_API_KEY; 
 String weatherTemp = "--°C";
 String weatherDesc = "...";
 uint16_t tempColor = TFT_WHITE;

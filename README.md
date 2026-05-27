@@ -1,6 +1,6 @@
-# ESP32 Multi-Timezone & Real-Time Weather Clock
+# CYD Multi-Timezone & Real-Time Weather Clock
 
-A sleek, minimalist digital clock station built on the ESP32 platform. This project connects to multiple pre-configured Wi-Fi networks dynamically, syncs exact atomic time via NTP, fetches live localized weather data through the OpenWeatherMap API, and presents an interactive user interface on a TFT display.
+A sleek, minimalist digital clock station built on the CYD platform. This project connects to multiple pre-configured Wi-Fi networks dynamically, syncs exact atomic time via NTP, fetches live localized weather data through the OpenWeatherMap API, and presents an interactive user interface on a TFT display.
 
 ---
 
@@ -19,7 +19,7 @@ The main objective of this project is to build an intelligent, portable, and low
 
 This project is built using embedded system architectures and highly responsive SPI-driven peripherals.
 
-* **Microcontroller**: ESP32 Development Board (e.g., ESP32-32E NodeMCU)
+* **Microcontroller**: CYD Development Board (e.g., CYD-32E NodeMCU)
 * **Display**: TFT LCD Module driven by the ST7789/ILI9488 controller (configured via high-speed SPI connection)
 * **Display Driver Pins**:
   * `LCD_CS`: Pin 15 (Chip Select)
@@ -32,10 +32,10 @@ This project is built using embedded system architectures and highly responsive 
 
 The software architecture leverages optimized open-source embedded libraries to parse network protocols and render high-refresh-rate graphics.
 
-1. **`WiFi.h`** *(Built-in ESP32 Core)*: Manages 802.11 b/g/n Wi-Fi connection states, network reconnections, and multi-profile handshakes.
-2. **`HTTPClient.h`** *(Built-in ESP32 Core)*: Facilitates lightweight HTTP `GET` requests to query remote cloud APIs.
+1. **`WiFi.h`** *(Built-in CYD Core)*: Manages 802.11 b/g/n Wi-Fi connection states, network reconnections, and multi-profile handshakes.
+2. **`HTTPClient.h`** *(Built-in CYD Core)*: Facilitates lightweight HTTP `GET` requests to query remote cloud APIs.
 3. **`time.h`** *(Built-in C Core)*: Formats raw UNIX timestamps into readable standard calendars, track days of the week, and compute precise time structures (`struct tm`).
-4. **`TFT_eSPI`** *by Bodmer*: A highly optimized graphics rendering engine for TFT displays. Offers superior FPS by talking directly to the ESP32’s native hardware SPI.
+4. **`TFT_eSPI`** *by Bodmer*: A highly optimized graphics rendering engine for TFT displays. Offers superior FPS by talking directly to the CYD’s native hardware SPI.
 5. **`ArduinoJson`** *by Benoît Blanchon (v6.x)*: An efficient JSON serialization/deserialization library used to parse weather payloads received from the OpenWeatherMap satellite servers.
 
 ---
