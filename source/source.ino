@@ -3,7 +3,7 @@
 #include <HTTPClient.h>
 #include <ArduinoJson.h>
 #include "time.h"
-#include "info.h"
+#include "info.dev.h"
 
 // Cấu hình chân
 #define LCD_CS 15
