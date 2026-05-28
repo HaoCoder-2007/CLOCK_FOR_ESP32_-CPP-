@@ -5,4 +5,4 @@
 
 #define SECRET_API_KEY "Your_API_KEY"
 // -Create an account on 'openweathermap.org'
-// -Create your API
+// -Create your API KEY
